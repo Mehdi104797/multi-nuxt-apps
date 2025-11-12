@@ -1,0 +1,64 @@
+# ============================
+# Nuxt / Node General
+# ============================
+node_modules/
+dist/
+.output/
+.nuxt/
+.cache/
+.nitro/
+.temp/
+build/
+*.log
+*.lock
+!.gitignore
+
+# ============================
+# Environment / Local Configs
+# ============================
+.env
+.env.*
+!.env.example
+
+# ============================
+# Editor / OS Files
+# ============================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ============================
+# Local dependencies inside apps
+# ============================
+apps/*/node_modules/
+apps/*/.nuxt/
+apps/*/.output/
+apps/*/dist/
+apps/*/.cache/
+apps/*/.nitro/
+apps/*/.temp/
+apps/*/*.log
+apps/*/*.lock
+
+# ============================
+# Lock files (optional)
+# ============================
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ============================
+# Misc
+# ============================
+coverage/
+*.local
+*.bak
+*.tmp
+*.swp
+
+# ============================
+# Generated files
+# ============================
+*.map
+*.min.*
